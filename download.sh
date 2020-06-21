@@ -21,11 +21,12 @@ unzip RLCraft-files.zip
 # Get eula file
 java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui
 
-echo "Edit eula.txt and set eula to true"
 echo
-echo "Run the server with the command:"
+echo "*** FINAL STEPS ***"
+echo "1. Edit eula.txt and set eula to true"
+echo "2. Edit server.properties and add your ip"
+echo "3. Start the server and you should be able to connect to the server"
+echo
+echo "Command to run server (RAM: Max-5GB, Min-1GB): "
 echo "java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui"
-echo
-echo "Once the server has completed loading, stop the server (CTRL+C) and edit server.properties and add your ip"
-echo "Start the server again and you should be able to connect to the server"
 
