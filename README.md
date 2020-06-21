@@ -39,6 +39,10 @@ Use vim or nano to edit text file in terminal
 
 java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui
 
+- Close server
+
+CTRL+C
+
 - Set your ip in server.properties
 
 Edit using vim or nano in terminal

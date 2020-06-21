@@ -24,9 +24,12 @@ java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui
 echo
 echo "*** FINAL STEPS ***"
 echo "1. Edit eula.txt and set eula to true"
-echo "2. Edit server.properties and add your ip"
-echo "3. Start the server and you should be able to connect to the server"
+echo "2. Run server to spawn server.properties variables"
+echo "3. Close server (CTRL+C)"
+echo "4. Edit server.properties and add your ip"
+echo "5. Start the server and you should be able to connect to the server"
 echo
 echo "Command to run server (RAM: Max-5GB, Min-1GB): "
 echo "java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui"
+echo
 
