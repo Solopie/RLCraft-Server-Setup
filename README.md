@@ -29,7 +29,7 @@ java -jar forge-installer.jar --installServer
 
 - Run the server (RAM: Max-5GB,Min-1GB) 
 
-java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui
+java -Xmx5120m -Xms1024m -jar forge-1.12.2-14.23.5.2854.jar nogui 
 
 - Set eula to true in eula.txt
 
@@ -37,11 +37,11 @@ Use vim or nano to edit text file in terminal
 
 - Run the server (RAM: Max-5GB,Min-1GB) 
 
-java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui
+java -Xmx5120m -Xms1024m -jar forge-1.12.2-14.23.5.2854.jar nogui 
 
 - Close server
 
-CTRL+C
+/stop or CTRL+C
 
 - Set your ip in server.properties
 
@@ -57,5 +57,5 @@ unzip RLCraft-files.zip
 
 - Run the server (RAM: Max-5GB,Min-1GB) 
 
-java -Xmx5120m -Xms1024m -jar minecraft_server.1.12.2.jar nogui
+java -Xmx5120m -Xms1024m -jar forge-1.12.2-14.23.5.2854.jar nogui 
 
